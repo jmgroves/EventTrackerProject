@@ -1,4 +1,4 @@
-package com.skilldistilery.eventtracker;
+package com.skilldistillery.eventtracker;
 
 import javax.persistence.*;
 
@@ -13,7 +13,7 @@ public class Mileage {
 	
 	@Column(name="miles_driven")
 	private double milesDriven;
-	@Column(name="gallons_used")
+	@Column(name="gallons_filled")
 	private double gallonsUsed;
 	
 	

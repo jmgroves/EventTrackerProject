@@ -9,7 +9,7 @@ import javax.transaction.Transactional;
 import org.springframework.stereotype.Service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.skilldistilery.eventtracker.Mileage;
+import com.skilldistillery.eventtracker.Mileage;
 
 @Transactional
 @Service

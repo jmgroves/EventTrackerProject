@@ -2,7 +2,7 @@ package com.skilldistillery.eventtracker.data;
 
 import java.util.List;
 
-import com.skilldistilery.eventtracker.Mileage;
+import com.skilldistillery.eventtracker.Mileage;
 
 public interface MileageDAO {
 	

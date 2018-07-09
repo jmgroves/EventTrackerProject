@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.skilldistilery.eventtracker.Mileage;
+import com.skilldistillery.eventtracker.Mileage;
 import com.skilldistillery.eventtracker.data.MileageDAO;
 
 @RestController
@@ -29,6 +29,10 @@ public class MileageController {
 	  @RequestMapping(path="mileages", method=RequestMethod.GET)
 	  public List<Mileage> getMileages(){ 
 		  return mileageDAO.index();
+	  }
+	  @RequestMapping(path="mileages/mpg", method=RequestMethod.GET)
+	  public double getMpg(){ 
+		  return mileageDAO.totalMilesPerGallon();
 	  }
 	  @RequestMapping(path="mileages/{id}", method=RequestMethod.GET)
 	  public Mileage getMileageById(@PathVariable int id){ 
