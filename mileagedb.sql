@@ -23,6 +23,8 @@ CREATE TABLE IF NOT EXISTS `mileagedb`.`mileage` (
   `id` INT(11) NOT NULL AUTO_INCREMENT,
   `miles_driven` DOUBLE NOT NULL,
   `gallons_filled` DOUBLE NOT NULL,
+  `gas_station` TEXT(55),
+  `comment` TEXT(55),
   PRIMARY KEY (`id`))
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8;
