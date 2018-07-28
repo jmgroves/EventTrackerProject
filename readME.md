@@ -21,7 +21,7 @@
 * Spring Boot
 
 ### How to Run
-# Deployed to AWS: http://52.14.143.133:8080/RESTEventTracker/
+#### Deployed and to AWS abd viewable at: http://52.14.143.133:8080/RESTEventTracker/
 
 
 In Postman:
