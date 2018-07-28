@@ -26,32 +26,32 @@
 
 In Postman:
 
-GET http://52.14.143.133:8080/EventTracker/api/mileages
+GET http://52.14.143.133:8080/RESTEventTracker/api/mileages
 
 Provides list of all mileage reports
 
-GET http://52.14.143.133:8080/EventTracker/api/mileages/id
+GET http://52.14.143.133:8080/RESTEventTracker/api/mileages/id
 
 Replace id with a number to receive the individual JSON for the mileage report with that
 id
 
-POST http://52.14.143.133:8080/EventTracker/api/mileages
+POST http://52.14.143.133:8080/RESTEventTracker/api/mileages
 
 Allows user to create a new mileage report
 
-PATCH http://52.14.143.133:8080/EventTracker/api/mileages/id
+PATCH http://52.14.143.133:8080/RESTEventTracker/api/mileages/id
 
 Replace id with a number to update the mileage report with that id
 
-PUT http://52.14.143.133:8080/EventTracker/api/mileages/id
+PUT http://52.14.143.133:8080/RESTEventTracker/api/mileages/id
 
 Replace id with a number to replace the mileage report with that id
 
-DELETE http://52.14.143.133:8080/EventTracker/api/mileages/id
+DELETE http://52.14.143.133:8080/RESTEventTracker/api/mileages/id
 
 Replace id with a number to delete the mileage report with that id
 
-GET http://52.14.143.133:8080/EventTracker/api/mileages/avg
+GET http://52.14.143.133:8080/RESTEventTracker/api/mileages/avg
 
 Provides the overall average MPG based on current mileage reports
 
