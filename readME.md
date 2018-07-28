@@ -4,7 +4,7 @@
 ### Overview
 - The application contains a single table MySQL table
 - The data is accessed using Java entities created/annotated with JPA and Spring Boot. Users can create, update, and delete records through REST operations.
-- Allows tracking of of gas fill-ups, where and with comments IOT to track precise MPG.
+- Allows tracking of of gas fill-ups, the gas station used, and additional comments IOT to track precise MPG.
 - Allows on-the-fly conversion of imperial units to metric and vice-versa.
 
 ### Technologies/Tools Used
